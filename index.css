@@ -1,27 +1,33 @@
 body {
-    font-family: "Lato", sans-serif;
+    font-family:sans-serif;
 }
 
 .sidenav {
     height: 100%;
-    width: 160px;
+    width: 120px;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: bisque;
+    background-color:rgb(212, 152, 40);
     overflow-x: hidden;
     padding-top: 20px;
-}
+    border:solid 2px;
+    border-color:darkkhaki;
+ }
 
 .sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 25px;
+    font-size:15px;
     color:black;
     display: block;
 }
 
 .sidenav a:hover {
     color:brown;
+    
 }
+img {
+    background-color: beige;
+ }
